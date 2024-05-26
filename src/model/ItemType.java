@@ -4,8 +4,13 @@ package model;
  * Represents the possible types of items a project can have.
  */
 public enum ItemType {
+    OTHER,
     BREEDSCROLL,
-    SPECIALTYSCROLL,
+    SCATTERSCROLL,
+    PERMABABYSCROLL,
+    MATURITYSCROLL,
+    SILHOUETTESCROLL,
+    RENAMINGSCROLL,
     PRIMARYGENE,
     SECONDARYGENE,
     TERTIARYGENE,
@@ -13,5 +18,6 @@ public enum ItemType {
     SKINCENT,
     APPAREL,
     SCENE,
+    VISTA,
     FAMILIAR
 }
