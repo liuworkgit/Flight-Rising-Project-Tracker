@@ -13,12 +13,24 @@ public class Item {
     /**
      * default constructor for Item.
      */
-    public Item() {}
+    public Item() {
+        name = "New Item";
+        type = ItemType.OTHER;
+        cost = 0;
+        status = false;
+        link = "N/A";
+    }
 
     /**
      * parameterized constructor for Item.
      */
-    public Item(String name, ItemType type, int cost, boolean status, String link) {}
+    public Item(String name, ItemType type, int cost, boolean status, String link) {
+        this.name = name;
+        this.type = type;
+        this.cost = cost;
+        this.status = status;
+        this.link = link;
+    }
 
     // getters and setters
     public String getName() {
