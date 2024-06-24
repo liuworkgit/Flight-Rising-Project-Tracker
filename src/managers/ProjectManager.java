@@ -1,4 +1,4 @@
-package model.managers;
+package managers;
 
 /**
  * A module that organizes and manages projects.

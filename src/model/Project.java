@@ -1,7 +1,7 @@
 package model;
 
 /**
- * Represents a project.
+ * Represents a Flight Rising project.
  */
 public class Project {
 }

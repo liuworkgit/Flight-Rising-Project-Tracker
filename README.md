@@ -40,8 +40,8 @@ For a single project, users should be able to:
 - see the total amount of treasure and gems spent on a single project.
 - see the total amount of treasure and gems needed based on user-inputted costs for individual 
   pieces.
-- add a new piece with the option to input a name, its type (gene, breed change, clothing, etc.),
-  source, cost, priority, and link to its database entry on-site.
+- add a new piece with the option to input a name, type, cost, priority, and link to its 
+  database entry on-site.
 - delete a piece.
 - edit a piece's details.
 - mark a piece as "obtained."

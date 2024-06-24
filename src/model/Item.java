@@ -1,5 +1,8 @@
 package model;
 
+import categories.ItemType;
+import categories.Priority;
+
 /**
  * Represents an item needed for a project (apparel, gene scrolls, etc.)
  */
@@ -7,64 +10,62 @@ public class Item {
     private String name;
     private ItemType type; // default = ItemType.OTHER
     private int cost;
-    private boolean status; // default = false (i.e. not yet obtained)
+    private Priority priority; // default = Priority.NONE
     private String link;
+    private boolean isObtained; // default = false
 
     /**
-     * default constructor for Item.
+     * Constructor for Item.
      */
-    public Item() {
-        name = "New Item";
-        type = ItemType.OTHER;
-        cost = 0;
-        status = false;
-        link = "N/A";
-    }
+    public Item(String n, ItemType it, int c, Priority p, String l) {}
 
     /**
-     * parameterized constructor for Item.
+     * Changes an item's obtained status.
      */
-    public Item(String name, ItemType type, int cost, boolean status, String link) {
-        this.name = name;
-        this.type = type;
-        this.cost = cost;
-        this.status = status;
-        this.link = link;
-    }
+    public void markObtained() {}
 
-    // getters and setters
+    // Getters and Setters
     public String getName() {
-      return name;
+        return name;
     }
-    public void setName(String newName) {
-        name = newName;
+
+    public void setName(String name) {
+        this.name = name;
     }
 
     public ItemType getType() {
         return type;
     }
-    public void setType(ItemType newType) {
-        type = newType;
+
+    public void setType(ItemType type) {
+        this.type = type;
     }
 
     public int getCost() {
         return cost;
     }
-    public void setCost(int newCost) {
-        cost = newCost;
+
+    public void setCost(int cost) {
+        this.cost = cost;
     }
 
-    public boolean getStatus() {
-        return status;
+    public Priority getPriority() {
+        return priority;
     }
-    public void setStatus(boolean newStatus) {
-        status = newStatus;
+
+    public void setPriority(Priority priority) {
+        this.priority = priority;
     }
 
     public String getLink() {
         return link;
     }
-    public void setLink(String newLink) {
-        link = newLink;
+
+    public void setLink(String link) {
+        this.link = link;
+    }
+
+    public boolean getObtained() {
+        return isObtained;
     }
 }

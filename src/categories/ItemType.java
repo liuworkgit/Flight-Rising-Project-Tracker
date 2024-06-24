@@ -1,4 +1,4 @@
-package model;
+package categories;
 
 /**
  * Represents the possible types of items a project can have.
