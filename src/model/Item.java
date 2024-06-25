@@ -7,18 +7,18 @@ import categories.Priority;
  * Represents an item needed for a project (apparel, gene scrolls, etc.)
  */
 public class Item {
-    private String name = "Untitled";
-    private ItemType type = ItemType.OTHER;
-    private int costT = 0;
-    private int costG = 0;
-    private Priority priority = Priority.NONE;
-    private String link = "";
-    private boolean isObtained = false;
+    private String name;
+    private ItemType type;
+    private int costT;
+    private int costG;
+    private Priority priority;
+    private String link;
+    private boolean isObtained;
 
     /**
      * Constructor for Item.
      */
-    public Item(String n, ItemType t, int ct, int cg, Priority p, String l) {}
+    public Item() {}
 
     /**
      * Changes an item's obtained status.
