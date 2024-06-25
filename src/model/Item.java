@@ -18,12 +18,22 @@ public class Item {
     /**
      * Constructor for Item.
      */
-    public Item() {}
+    public Item() {
+        name = "Untitled";
+        type = ItemType.OTHER;
+        costT = 0;
+        costG = 0;
+        priority = Priority.NONE;
+        link = "None";
+        isObtained = false;
+    }
 
     /**
      * Changes an item's obtained status.
      */
-    public void markObtained() {}
+    public void markObtained() {
+        isObtained = !isObtained;
+    }
 
     // Getters and Setters
     public String getName() {
