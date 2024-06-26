@@ -1,4 +1,4 @@
-# FR Project Tracker
+# _Flight Rising_ Project Tracker
 A Java application which tracks the pieces and progress of dragon projects on *Flight Rising.*
 
 This project uses JDK 22 and the JUnit testing library version 5.9.0.
