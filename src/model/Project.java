@@ -1,18 +1,16 @@
 package model;
 
+import categories.Priority;
 import managers.ItemManager;
 
 /**
  * Represents a Flight Rising project.
  */
 public class Project {
+    String name;
+    float progress;
     ItemManager items;
-    float progress; // default = 0
-    int totalSpentT; // default = 0
-    int totalSpentG; // default = 0
-    int totalNeedT; // default = 0
-    int totalNeedG; // default = 0
-
+    Priority priority;
     /**
      * see the completion status of a project based on the number of pieces obtained.
      * see the total amount of treasure and gems spent on a single project.

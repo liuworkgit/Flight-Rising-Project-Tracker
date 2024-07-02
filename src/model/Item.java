@@ -17,6 +17,9 @@ public class Item {
 
     /**
      * Constructor for Item.
+     *
+     * By default, an Item object's fields are a set of default values.
+     * They can only be changed after the object's instantiation.
      */
     public Item() {
         name = "Untitled";
@@ -31,7 +34,7 @@ public class Item {
     /**
      * Changes an item's obtained status.
      */
-    public void markObtained() {
+    public void changeIsObtained() {
         isObtained = !isObtained;
     }
 

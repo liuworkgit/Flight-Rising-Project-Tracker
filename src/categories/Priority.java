@@ -1,7 +1,7 @@
 package categories;
 
 /**
- * Represents the level of priority an object to be completed can have.
+ * Represents how important an item is to get/a project is to finish.
  */
 public enum Priority {
     HIGH,

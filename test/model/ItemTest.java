@@ -8,7 +8,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 /**
- * Tests for Item
+ * Tests for Item.
  */
 class ItemTest {
     Item item;
@@ -49,7 +49,7 @@ class ItemTest {
         item.setCostG(10);
         item.setPriority(Priority.HIGH);
         item.setLink("www.flightrising.com");
-        item.markObtained();
+        item.changeIsObtained();
 
         compareValues(
                 item,
@@ -68,7 +68,7 @@ class ItemTest {
      */
     @Test
     void testMarkObtained() {
-        item.markObtained();
+        item.changeIsObtained();
         assertTrue(item.getObtained());
     }
 
