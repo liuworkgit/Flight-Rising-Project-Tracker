@@ -1,5 +1,6 @@
 package model;
 
+import categories.BreedType;
 import categories.Priority;
 import managers.ItemManager;
 
@@ -7,10 +8,13 @@ import managers.ItemManager;
  * Represents a Flight Rising project.
  */
 public class Project {
-    String name;
-    float progress;
-    ItemManager items;
-    Priority priority;
+    private String name;
+    private float progress;
+    private BreedType breedType;
+    private String link;
+    private ItemManager items;
+    private Priority priority;
+
     /**
      * see the completion status of a project based on the number of pieces obtained.
      * see the total amount of treasure and gems spent on a single project.
