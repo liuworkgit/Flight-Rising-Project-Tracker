@@ -7,7 +7,8 @@ import java.util.HashMap;
  * Represents a module which can organize, sort and manage various responsibilities.
  * */
 public abstract class Manager<T> {
-    HashMap<String, T> resps;
+    private HashMap<String, T> resps;
+    private int numResps;
 
     /**
      * Adds a responsibility to the manager.

@@ -1,6 +1,7 @@
 package model;
 
-import categories.*;
+import categories.ItemType;
+import categories.Priority;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

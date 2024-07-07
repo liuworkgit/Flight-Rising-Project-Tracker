@@ -7,19 +7,19 @@ import categories.Priority;
  * Represents an item needed for a project (apparel, gene scrolls, etc.)
  */
 public class Item {
-    private String name;
-    private ItemType type;
-    private int costT;
     private int costG;
-    private Priority priority;
-    private String link;
+    private int costT;
     private boolean isObtained;
+    private String link;
+    private String name;
+    private Priority priority;
+    private ItemType type;
 
     /**
      * Constructor for Item.
      *
-     * By default, an Item object's fields are a set of default values.
-     * They can only be changed after the object's instantiation.
+     * By default, an Item's fields are a set of default values.
+     * They can only be changed after instantiation.
      */
     public Item() {
         name = "Untitled";
@@ -42,7 +42,6 @@ public class Item {
     public String getName() {
         return name;
     }
-
     public void setName(String name) {
         this.name = name;
     }
@@ -50,7 +49,6 @@ public class Item {
     public ItemType getType() {
         return type;
     }
-
     public void setType(ItemType type) {
         this.type = type;
     }
@@ -58,7 +56,6 @@ public class Item {
     public int getCostT() {
         return costT;
     }
-
     public void setCostT(int costT) {
         this.costT = costT;
     }
@@ -66,7 +63,6 @@ public class Item {
     public int getCostG() {
         return costG;
     }
-
     public void setCostG(int costG) {
         this.costG = costG;
     }
@@ -74,7 +70,6 @@ public class Item {
     public Priority getPriority() {
         return priority;
     }
-
     public void setPriority(Priority priority) {
         this.priority = priority;
     }
@@ -82,7 +77,6 @@ public class Item {
     public String getLink() {
         return link;
     }
-
     public void setLink(String link) {
         this.link = link;
     }

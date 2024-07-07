@@ -7,11 +7,18 @@ ITEM
 - delete item
 
 PROJECT
-- see completion status
-- see all items needed (fetch from manager?)
-- see total spent/needed in t/g
-- filter items by name, cost and priority
-- find a certain item (from mngr)
+- -	Calculate completion status based on number of items got
+-	See t/g
+     o	Total spent
+     o	Total needed
+-	Add new item
+-	Delete item
+-	Edit item dets
+-	Mark item as obtained
+-	Filter items
+     o	Name
+     o	Priority
+-	Find certain item
 
 projmngr (i.e. app itself)
 - filter projs by cost, common piece
@@ -22,6 +29,22 @@ projmngr (i.e. app itself)
 - mark proj done (popup if unmarked items)
 - see proj auto done after obt last item
 - see total cost ever/need (get from projs total, which is from item total)
+
+-	Filter by certain traits
+     o	Number of items needed (most to least, vice versa)
+     o	Certain shared piece
+-	Add a new project
+     o	Name
+     o	Breed
+     o	Link on-site
+     o	Upload image
+-	Delete a project
+-	Change a project’s details (fields only)
+     o	Name, breed, link, image, etc.
+-	Mark a project as done manually
+-	Automatically change project to done after get final item
+-	See total amount spent on all projects
+-	See total amount needed (ignore those without costs)
 
 mngr
 - filter by field

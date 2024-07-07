@@ -8,8 +8,10 @@ import java.util.HashMap;
  * Tracks a project's total cost and amount of money spent on it.
  *
  * A project's budget will have four amounts:
- * - The total needed cost (in treasure and gems)
- * - The total amount spent (in treasure and gems)
+ * - The total needed cost (in treasure)
+ * - The total needed cost (in gems)
+ * - The total amount spent (in treasure)
+ * - The total amount spent (in gems)
  */
 public class BudgetTracker {
     private HashMap<CurrencyType, Integer> budget;
