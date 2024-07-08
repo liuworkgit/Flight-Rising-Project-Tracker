@@ -5,7 +5,7 @@ import categories.CurrencyType;
 import managers.ItemManager;
 
 import java.util.ArrayList;
-// TODO - FIELDS AND METHODS
+
 /**
  * Represents a Flight Rising project.
  */

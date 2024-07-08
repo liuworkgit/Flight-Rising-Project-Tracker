@@ -40,7 +40,7 @@ class ItemTest {
     }
 
     /**
-     * Tests if able to set new values for an item's fields.
+     * Tests if able to set new values for an Item's fields.
      */
     @Test
     void testSetValues() {
@@ -65,7 +65,7 @@ class ItemTest {
     }
 
     /**
-     * Tests if able to change an item's obtained status.
+     * Tests if able to change an Item's obtained status.
      */
     @Test
     void testMarkObtained() {
