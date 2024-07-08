@@ -1,4 +1,4 @@
-# FR Project Tracker
+# _Flight Rising_ Project Tracker
 A Java application which tracks the pieces and progress of dragon projects on *Flight Rising.*
 
 This project uses JDK 22 and the JUnit testing library version 5.9.0.
@@ -22,8 +22,7 @@ the necessary finishing pieces difficult.
 -----
 # User Stories
 With this application, users should be able to do the following to all their projects:
-- filter projects by their total cost from most to least expensive (and vice 
-  versa), as well as by a certain common piece.
+- filter projects by their item count (from most to least, and vice versa) as well as by a certain common piece.
 - add a new project with the option to input a name, breed type, link to dragon on-site and its 
   final appearance.
 - delete a project.
@@ -45,7 +44,7 @@ For a single project, users should be able to:
 - delete a piece.
 - edit a piece's details.
 - mark a piece as "obtained."
-- filter a project's pieces by name, cost and priority.
+- filter a project's pieces by name and priority.
 - see all the pieces needed for a single project.
 
 # Future Goals
